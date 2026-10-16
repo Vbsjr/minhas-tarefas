@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4f46e5">
+<title>Minhas Tarefas</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>Minhas Tarefas</h1>
+  <form class="form" id="form" autocomplete="off">
+    <input type="text" id="input" placeholder="O que você precisa fazer?" maxlength="120" aria-label="Nova tarefa">
+    <button class="btn" type="submit">Adicionar</button>
+  </form>
+  <div class="stats">
+    <div class="stat"><b id="pend">0</b><span>Pendentes</span></div>
+    <div class="stat"><b id="conc">0</b><span>Concluídas</span></div>
+  </div>
+  <ul id="lista"></ul>
+  <div class="empty" id="vazio">Nenhuma tarefa ainda. Adicione a primeira acima!</div>
+  <div class="actions"><button class="clear" id="limpar">Apagar concluídas</button></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
