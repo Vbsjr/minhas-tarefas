@@ -1,4 +1,4 @@
-const CACHE = 'minhas-tarefas-v1';
+const CACHE = 'JG-Organizador-v2';
 const ARQUIVOS = [
   './',
   './index.html',
