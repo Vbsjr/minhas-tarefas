@@ -1,6 +1,6 @@
 {
-  "name": "Minhas Tarefas",
-  "short_name": "Tarefas",
+  "name": "JG Organizador",
+  "short_name": "Organizador",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
